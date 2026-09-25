@@ -4,64 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Solar.css">
-    <title>SunSon Solar - Create Account</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
 <body>
-
     <div class="container">
-        <h1>SunSon Solar</h1>
+        <h1>Sun Son Solar</h1>
         <p class="subtitle">Create your account</p>
-
         <form>
-            <div class="form-row">
-                <div class="form-group">
-                    First Name:
-                    <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required><br><br>
-                    Last Name:
-                    <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required><br><br>
-                    Middle Name:
-                    <input type="text" id="middlename" name="middlename" placeholder="Enter middle name"><br><br>
-                    Birthdate:
-                    <input type="date" id="birthdate" name="birthdate" required><br><br>
-                    
-                    Gender:
-                    <select id="gender" name="gender" required>
-                        <option value="">Select Gender</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
-                        <option value="prefer-not-to-say">Prefer not to say</option>
-                    </select>
+        <div class="form-row">
+        <div class="form-group">
+        <label>First Name</label>
+        <input type="text" placeholder="Enter first name">
+
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter last name">
+
+                            <label>Student Number</label>
+                            <input type="text" placeholder="Enter student number">
+
+                            <label>Course</label>
+                            <select>
+                                <option>Select Course</option>
+                                <option>BS Information Technology</option>
+                                <option>BS Computer Science</option>
+                                <option>BS Information Systems</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter email">
+
+                            <label>Username</label>
+                            <input type="text" placeholder="Enter username">
+
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter password">
+
+                            <label>Confirm Password</label>
+                            <input type="password" placeholder="Confirm password">
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="register-btn">
+                        Register
+                    </button>
+
+                </form>
+
+                <div class="login">
+                    Already have an account?
+                    <a href="#">Login</a>
                 </div>
 
-                <div class="form-group">
-                    Email:
-                    <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
-                    Phone Number:
-                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required><br><br>
-                    Addres:
-                    <input type="text" id="address" name="address" placeholder="Enter address" required><br><br>
-                    Username:
-                    <input type="text" id="username" name="username" placeholder="Enter username" required><br><br>
-                    Password:
-                    <input type="password" id="password" name="password" placeholder="Enter password" required>
-
-                </div>
             </div>
 
-            <button type="submit" class="register-btn">
-                Register
-            </button>
-        </form>
+        </body>
 
-        <div class="login">
-            Already have an account?
-            <a href="#">Login</a>
-        </div>
-
-    </div>
-
-</body>
 </html>
