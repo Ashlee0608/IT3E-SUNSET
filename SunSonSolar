@@ -4,74 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Solar.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="container">
+        <h1>Sun Son Solar</h1>
+        <p class="subtitle">Create your account</p>
+        <form>
+        <div class="form-row">
+        <div class="form-group">
+        <label>First Name</label>
+        <input type="text" placeholder="Enter first name">
 
-    <head>
-        <title>SunSetSolar - Registration</title>
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter last name">
 
-    <body>
-        <div class="container">
-            <h1>Sun Son Solar</h1>
-            <p class="subtitle">Create your account</p>
+                            <label>Student Number</label>
+                            <input type="text" placeholder="Enter student number">
 
-            <form action="#" method="POST">
+                            <label>Course</label>
+                            <select>
+                                <option>Select Course</option>
+                                <option>BS Information Technology</option>
+                                <option>BS Computer Science</option>
+                                <option>BS Information Systems</option>
+                            </select>
+                        </div>
 
-                First Name:
-                <input type="text" id="Firstname" name="Firstname" placeholder="Enter your first name" required><br><br>
-                Last Name:
-                <input type="text" id="Lastname" name="Lastname" placeholder="Enter your last name" required><br><br>
-                Middlename:
-                <input type="text" id="Middlename" name="Middlename" placeholder="Enter your middle name" required><br><br>
-                Birthdate:
-                <input id="birthdate" name="birthdate" type="date" required><br><br>
-                <div class="gender-box">
-                    Gender:
-                    <input type="radio" name="gender" value="male" required> Male
-                    <input type="radio" name="gender" value="female"> Female
-                    <input type="radio" name="gender" value="other"> Other
-                </div><br><br>
-                Email address:
-                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-                Number:
-                <input type="number" id="phone" name="phone" placeholder="09*******" pattern="[0-9]{11}" maxlength="11"
-                    required> <br><br>
-                <select id="userType" name="userType" required>
-                    <option value=""> Select User Type </option>
-                    <option value="customer">Customer</option>
-                    <option value="employee">Employee</option>
-                    <option value="admin">Administrator</option>
-                </select><br><BR>
-                Address:
-                <input type="text" id="address" name="address" placeholder="Enter your address" required><br><br>
-                Username:
-                <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
-                Password:
-                <input type="password" id="password" name="password" placeholder="Enter your password" required
-                    minlength="8"><br><br>
-                Confirm Password:
-                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password"
-                    required minlength="13"><BR><BR>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter email">
 
-                <button type="submit" class="register-btn">
-                    Register
-                </button>
+                            <label>Username</label>
+                            <input type="text" placeholder="Enter username">
 
-            </form>
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter password">
 
-            <p class="login">
-                Already have an account?
-                <a href="#">Login</a>
-            </p>
+                            <label>Confirm Password</label>
+                            <input type="password" placeholder="Confirm password">
+                        </div>
 
-        </div>
+                    </div>
 
-    </body>
+                    <button type="submit" class="register-btn">
+                        Register
+                    </button>
 
-</html>
-</body>
+                </form>
+
+                <div class="login">
+                    Already have an account?
+                    <a href="#">Login</a>
+                </div>
+
+            </div>
+
+        </body>
 
 </html>
