@@ -4,68 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
-
-    <title>Sun Son Solar - Registration</title>
-</head>
+    <link rel="stylesheet" href="script.js">
+     <title>SunSonSolar Registration Form</title>
+ </head>
 
 <body>
-
     <div class="container">
-
-        <h1>Sun Son Solar</h1>
+    <center><h1>SunSonSolar</h1></center>
         <p class="subtitle">Create your account</p>
 
         <form>
-
             <div class="form-row">
                 <div class="form-group">
-                    <label for="firstname">First Name</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required>
-                    <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required>
-                    <label for="middlename">Middle Name</label>
-                    <input type="text" id="middlename" name="middlename" placeholder="Enter middle name">
-                    <label for="birthdate">Birthdate</label>
-                    <input type="date" id="birthdate" name="birthdate" required>
-                    <label>Gender</label>
+                    First Name:
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required><br></br.>
+                    Last Name:
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required><br></br>
+                    Middle Name:
+                    <input type="text" id="middlename" name="middlename" placeholder="Enter middle name"><br></br>
+                    Birthdate:
+                    <input type="date" id="birthdate" name="birthdate" required><br></br>
+                    Gender:
                     <div class="gender">
-                        <label>
-                            <input type="radio" name="gender" value="Male" required> Male
-                        </label>
-                        <label>
-                            <input type="radio" name="gender" value="Female">Female
-                        </label>
+                        <input type="radio" name="gender" value="Male" required> Male<br>
+                        <input type="radio" name="gender" value="Female">Female
                     </div>
-
+                    
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter email" required>
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
-                    <label for="address">Address</label>
+                    Email:
+                    <input type="email" id="email" name="email" placeholder="Example@gmail.com" required>
+                    Phone Number:
+                    <input type="tel" id="phone" name="phone" placeholder="09**********" required>
+                    Address:
                     <input type="text" id="address" name="address" placeholder="Enter address" required>
-                    <label for="username">Username</label>
+                    Username:
                     <input type="text" id="username" name="username" placeholder="Enter username" required>
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter password" required>
-
+                    Password:
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
                 </div>
             </div>
-            <button type="submit" class="register-btn">
-                Register
-            </button>
+
+            <button type="submit" class="register-btn">Register</button>
         </form>
 
         <div class="login">
             Already have an account?
             <a href="#">Login</a>
         </div>
-
     </div>
-
 </body>
-
 </html>
