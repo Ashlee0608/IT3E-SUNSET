@@ -6,19 +6,24 @@
         }
 
         body {
-            background: #f768d3;
+            background-image: url("Sunsation-Solar-Social-Share.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 50px;
+            min-height: 50vh;
         }
+        
 
         .container {
             width: 400px;
-            background: rgb(248, 27, 204);
+            background: rgb(218, 214, 214);
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 20px rgb(255, 255, 255);
         }
 
         h1 {
