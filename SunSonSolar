@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+     <title>SunSonSolar Registration Form</title>
+ </head>
+
+<body>
+    <div class="container">
+    <center><h1>SunSonSolar</h1></center>
+        <p class="subtitle">Create your account</p>
+
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    First Name:
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required><br></br.>
+                    Last Name:
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required><br></br>
+                    Middle Name:
+                    <input type="text" id="middlename" name="middlename" placeholder="Enter middle name"><br></br>
+                    Birthdate:
+                    <input type="date" id="birthdate" name="birthdate" required><br></br>
+                    Gender:
+                    <div class="gender">
+                        <input type="radio" name="gender" value="Male" required> Male<br>
+                        <input type="radio" name="gender" value="Female">Female
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    Email:
+                    <input type="email" id="email" name="email" placeholder="Example@gmail.com" required>
+                    Phone Number:
+                    <input type="tel" id="phone" name="phone" placeholder="09**********" required>
+                    Address:
+                    <input type="text" id="address" name="address" placeholder="Enter address" required>
+                    Username:
+                    <input type="text" id="username" name="username" placeholder="Enter username" required>
+                    Password:
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                </div>
+            </div>
+
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+
+        <div class="login">
+            Already have an account?
+            <a href="#">Login</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: #ffd6e7 url('c70976cb-259e-4383-988b-090c7d9317ca.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 80, 214, 0.73);
+    padding: 40px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(247, 3, 198);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.subtitle,
+.login {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    width: 50%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender {
+    margin: 5px 0 15px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background: #00000071;
+    color: rgba(255, 255, 255, 0.799);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background: #363533;
+}
+
+.login a {
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,312 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     color: #000000;
+     background: #ffa0fa;
+ }
+
+ nav {
+     background: #0e0d0d;
+     color: hsl(0, 0%, 91%);
+     padding: 16px 6%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 12px;
+ }
+
+ nav h2 {
+     margin: 0;
+     color: #cac6c6;
+ }
+
+ nav a,
+ footer a {
+     color: #949191;
+     text-decoration: none;
+     margin: 0 8px;
+ }
+
+ nav a:hover,
+ footer a:hover {
+     text-decoration: underline;
+ } 
+
+ .hero {
+     text-align: center;
+     padding: 100px 50px;
+     background: #131212c5;
+     color: #d1d1d1;
+ }
+
+ .hero h1 {
+     font-size: 2.5rem;
+     color: #ffffff;
+ }
+
+ .hero p {
+     max-width: 650px;
+     margin: 20px auto;
+     color: #0e0d0d;
+ }
+
+ section {
+     padding: 45px 7%;
+     scroll-margin-top: 20px;
+     background: #f5d2ee;
+     color: #000000;
+ }
+
+ section h2 {
+     color: #000000;
+ }
+
+ section h3 {
+     color: #000000;
+ }
+
+ .services {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     gap: 22px;
+     margin-top: 25px;
+ }
+
+ .card {
+     background: #fdfcfd;
+     color: #070606;
+     padding: 24px;
+     border-radius: 12px;
+     border: 1px solid #f5c7d7;
+     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+ }
+
+ .card h3 {
+     color: #000000;
+ }
+
+ button,
+ .button {
+     display: inline-block;
+     border: 1px solid #e8a0b8;
+     border-radius: 6px;
+     background: #f8c8dc;
+     color: #000000;
+     padding: 12px 20px;
+     font-size: 1rem;
+     font-weight: bold;
+     cursor: pointer;
+     text-decoration: none;
+     margin-top: 10px;
+ }
+
+ button:hover,
+ .button:hover {
+     background: #f4b6cc;
+     color: #000000;
+ }
+
+ form {
+     max-width: 520px;
+ }
+
+ label {
+     display: block;
+     margin-top: 15px;
+     font-weight: bold;
+     color: #000000;
+ }
+
+ input,
+ select,
+ textarea {
+     display: block;
+     width: 100%;
+     padding: 12px;
+     margin-top: 6px;
+     border: 1px solid #e8a0b8;
+     border-radius: 6px;
+     font: inherit;
+     color: #000000;
+     background: #ffffff;
+ }
+
+ input::placeholder,
+ textarea::placeholder {
+     color: #555555;
+ }
+
+ input:focus,
+ select:focus,
+ textarea:focus {
+     outline: 2px solid #d98aa7;
+     outline-offset: 2px;
+ }
+
+ .cta-section {
+     text-align: center;
+     background: #f8c8dc;
+     color: #000000;
+ }
+
+ .faq-item {
+     max-width: 750px;
+     margin-bottom: 12px;
+ }
+
+ .faq-question {
+     display: block;
+     width: 100%;
+     text-align: left;
+     background: #f8c8dc;
+     color: #000000;
+ }
+
+ .faq-answer {
+     background: #ffffff;
+     color: #000000;
+     padding: 15px;
+     border: 1px solid #f4b6cc;
+ }
+
+ footer {
+     background: #f8c8dc;
+     color: #000000;
+     padding: 35px 7%;
+     text-align: center;
+ }
+
+ footer h3 {
+     color: #000000;
+ }
+
+ footer p,
+ footer a {
+     color: #000000;
+ }
+
+ #serviceResult,
+ #signupResult,
+ #loginResult,
+ #contactResult 
+ {
+     margin-top: 15px;
+     font-weight: bold;
+     color: #000000;
+ }
+
+ .account-container {
+     display: grid;
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+     gap: 25px;
+     padding: 40px 7%;
+     background-color: #fff0f5;
+     align-items: start;
+ }
+
+ .account-box {
+     background-color: #f8c8dc;
+     color: #000000;
+     padding: 30px;
+     border: 1px solid #e8a0b8;
+     border-radius: 15px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+     scroll-margin-top: 20px;
+ }
+
+ .account-box h2 {
+     color: #000000;
+     text-align: center;
+ }
+
+ .account-box p {
+     color: #000000;
+ }
+
+ .account-box form {
+     max-width: 100%;
+ }
+
+ .account-box label {
+     display: block;
+     color: #000000;
+     margin-top: 15px;
+     font-weight: bold;
+ }
+
+ .account-box input,
+ .account-box select {
+     width: 100%;
+     padding: 12px;
+     margin-top: 6px;
+     border: 1px solid #d99ab1;
+     border-radius: 6px;
+     background-color: #ffffff;
+     color: #000000;
+ }
+
+ .account-box button {
+     width: 100%;
+     margin-top: 20px;
+     background-color: #ffe4ec;
+     color: #000000;
+     border: 1px solid #afa7ab;
+     border-radius: 6px;
+     padding: 12px;
+     cursor: pointer;
+     font-weight: bold;
+ }
+
+ .account-box button:hover {
+     background-color: #eec6d4;
+ }
+
+ .account-box a {
+     color: #000000;
+     font-weight: bold;
+ }
+
+ @media (max-width: 600px) {
+     nav {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     nav a {
+         display: inline-block;
+         margin: 6px;
+     }
+
+     .hero {
+         padding: 55px 18px;
+     }
+
+     .hero h1 {
+         font-size: 2rem;
+     }
+
+     section {
+         padding: 30px 5%;
+     }
+ }
+
+ @media (max-width: 700px) {
+     .account-container {
+         grid-template-columns: 1fr;
+         padding: 25px 5%;
+     }
+
+     .account-box {
+         padding: 22px;
+     }
+ }
